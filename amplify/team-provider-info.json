@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-meetuptodos-dev-185211-authRole",
+      "UnauthRoleArn": "arn:aws:iam::936471194299:role/amplify-meetuptodos-dev-185211-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::936471194299:role/amplify-meetuptodos-dev-185211-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-meetuptodos-dev-185211-deployment",
+      "UnauthRoleName": "amplify-meetuptodos-dev-185211-unauthRole",
+      "StackName": "amplify-meetuptodos-dev-185211",
+      "StackId": "arn:aws:cloudformation:us-east-1:936471194299:stack/amplify-meetuptodos-dev-185211/a1306be0-0b7f-11ec-bda3-0e14a19417fd",
+      "AmplifyAppId": "d3q6z0cei8pfhc"
+    },
+    "categories": {
+      "auth": {
+        "meetuptodos26956cef": {}
+      },
+      "function": {
+        "todosfunc": {
+          "deploymentBucketName": "amplify-meetuptodos-dev-185211-deployment",
+          "s3Key": "amplify-builds/todosfunc-2f69587a65586e463471-build.zip"
+        }
+      }
+    }
+  }
+}

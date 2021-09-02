@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/todos",
+      "lambdaFunction": "todosfunc",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/todos"
+    }
+  ],
+  "resourceName": "todos",
+  "apiName": "todos",
+  "functionArns": [
+    {
+      "lambdaFunction": "todosfunc"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-meetuptodos-dev-185211-authRole",
+    "unAuthRoleName": "amplify-meetuptodos-dev-185211-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "todosfunc",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
